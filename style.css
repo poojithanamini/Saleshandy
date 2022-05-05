@@ -1,0 +1,43 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  margin: 0;
+}
+
+#screen {
+  width: 340px;
+}
+
+input[type='text'] {
+  font-size: 25px;
+}
+
+#key_cont {
+  width: 450px;
+  text-align: center;
+}
+
+.letter {
+  width: 100px;
+  height: 70px;
+  text-align: center;
+  padding: 5px;
+  margin: 1px;
+  border: 1px solid gray;
+  float: left;
+  cursor: context-menu;
+  font-size: 20px;
+}
+
+.letter:active {
+  background-color: rgb(201, 200, 200);
+}
+#keycontainer {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
